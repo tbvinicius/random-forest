@@ -2,7 +2,18 @@
 
 ### Python
 
-Deve ser utilizada a versão Python 3.6 ou superior
+Deve ser utilizada a versão Python 3.7 ou superior
+
+### Bibliotecas
+
+#### Pandas
+https://pandas.pydata.org/
+
+Instalar usando
+
+```
+pip3 install pandas
+```
 
 ### Estrutura 
 
@@ -21,7 +32,7 @@ e garantir que estão corretos
 3. Para cada configuração de hiperparâmetros, 
 criar uma Floresta Aleatória passando o dataset de treinamento
 4. Cada Floresta deve, a partir do dataset de treinamento, através do método
-de Bootstrap com reposição, gerar outros sets de treinamento, que devem ser
+de Bootstrap com reposição (Bagging), gerar outros sets de treinamento, que devem ser
 usados para a indução de suas árvores de decisão
 5. Utilizando o dataset de validação, avaliar o desempenho de cada Floresta
 na predição das classes do mesmo
